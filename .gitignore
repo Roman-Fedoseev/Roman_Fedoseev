@@ -1,0 +1,34 @@
+# Не забудьте добавить .gitignore если будете использовать Git
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (если не хотите коммитить большие файлы)
+# data/train.csv
+# data/test.csv
+
+# Results (submission создается автоматически)
+results/submission.csv
+
+# Docker
+*.tar
+
+# OS
+.DS_Store
+Thumbs.db
